@@ -41,3 +41,25 @@ body {
 .nav ul li a:hover {
     color: #08fc5179;
 }
+
+#search {
+    display: flex;
+    background-color: #e9e9e9;
+    padding: 40px;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.searchBox #query {
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.searchBox #enter {
+    cursor: pointer;
+    width: 44px;
+    height: 35px;
+}
